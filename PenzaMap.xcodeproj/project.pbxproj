@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86DFC81D1BA6B086004C6A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC81C1BA6B086004C6A0C /* main.m */; };
+		86DFC8201BA6B086004C6A0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC81F1BA6B086004C6A0C /* AppDelegate.m */; };
+		86DFC8231BA6B086004C6A0C /* PenzaMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC8211BA6B086004C6A0C /* PenzaMap.xcdatamodeld */; };
+		86DFC8261BA6B086004C6A0C /* PenzaMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC8251BA6B086004C6A0C /* PenzaMapVC.m */; };
+		86DFC8291BA6B086004C6A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DFC8271BA6B086004C6A0C /* Main.storyboard */; };
+		86DFC82B1BA6B086004C6A0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DFC82A1BA6B086004C6A0C /* Images.xcassets */; };
+		86DFC82E1BA6B086004C6A0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86DFC82C1BA6B086004C6A0C /* LaunchScreen.xib */; };
+		86DFC83A1BA6B086004C6A0C /* PenzaMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC8391BA6B086004C6A0C /* PenzaMapTests.m */; };
+		86DFC8451BA6B95E004C6A0C /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DFC8441BA6B95E004C6A0C /* LeftMenuVC.m */; };
+		D8678821A534CF3E4E3FA705 /* libPods-PenzaMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A9EDA27E6C0968BDE8F705 /* libPods-PenzaMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86DFC8341BA6B086004C6A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86DFC80F1BA6B086004C6A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DFC8161BA6B086004C6A0C;
+			remoteInfo = PenzaMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EE45DBFC08436270BA6F740 /* Pods-PenzaMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenzaMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-PenzaMap/Pods-PenzaMap.release.xcconfig"; sourceTree = "<group>"; };
+		86DFC8171BA6B086004C6A0C /* PenzaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenzaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DFC81B1BA6B086004C6A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DFC81C1BA6B086004C6A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86DFC81E1BA6B086004C6A0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86DFC81F1BA6B086004C6A0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86DFC8221BA6B086004C6A0C /* PenzaMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PenzaMap.xcdatamodel; sourceTree = "<group>"; };
+		86DFC8241BA6B086004C6A0C /* PenzaMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenzaMapVC.h; sourceTree = "<group>"; };
+		86DFC8251BA6B086004C6A0C /* PenzaMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenzaMapVC.m; sourceTree = "<group>"; };
+		86DFC8281BA6B086004C6A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86DFC82A1BA6B086004C6A0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86DFC82D1BA6B086004C6A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86DFC8331BA6B086004C6A0C /* PenzaMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenzaMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DFC8381BA6B086004C6A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DFC8391BA6B086004C6A0C /* PenzaMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenzaMapTests.m; sourceTree = "<group>"; };
+		86DFC8431BA6B95E004C6A0C /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuVC.h; sourceTree = "<group>"; };
+		86DFC8441BA6B95E004C6A0C /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
+		91A9EDA27E6C0968BDE8F705 /* libPods-PenzaMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PenzaMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C890F991041BC63DE2EC9722 /* Pods-PenzaMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenzaMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PenzaMap/Pods-PenzaMap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86DFC8141BA6B086004C6A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8678821A534CF3E4E3FA705 /* libPods-PenzaMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DFC8301BA6B086004C6A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86DFC80E1BA6B086004C6A0C = {
+			isa = PBXGroup;
+			children = (
+				86DFC8191BA6B086004C6A0C /* PenzaMap */,
+				86DFC8361BA6B086004C6A0C /* PenzaMapTests */,
+				86DFC8181BA6B086004C6A0C /* Products */,
+				88FAA1B1CEC688FFF17346BE /* Pods */,
+				CC57049AAB700B2933539D51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86DFC8181BA6B086004C6A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86DFC8171BA6B086004C6A0C /* PenzaMap.app */,
+				86DFC8331BA6B086004C6A0C /* PenzaMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86DFC8191BA6B086004C6A0C /* PenzaMap */ = {
+			isa = PBXGroup;
+			children = (
+				86DFC81E1BA6B086004C6A0C /* AppDelegate.h */,
+				86DFC81F1BA6B086004C6A0C /* AppDelegate.m */,
+				86DFC8241BA6B086004C6A0C /* PenzaMapVC.h */,
+				86DFC8251BA6B086004C6A0C /* PenzaMapVC.m */,
+				86DFC8431BA6B95E004C6A0C /* LeftMenuVC.h */,
+				86DFC8441BA6B95E004C6A0C /* LeftMenuVC.m */,
+				86DFC8271BA6B086004C6A0C /* Main.storyboard */,
+				86DFC82A1BA6B086004C6A0C /* Images.xcassets */,
+				86DFC82C1BA6B086004C6A0C /* LaunchScreen.xib */,
+				86DFC8211BA6B086004C6A0C /* PenzaMap.xcdatamodeld */,
+				86DFC81A1BA6B086004C6A0C /* Supporting Files */,
+			);
+			path = PenzaMap;
+			sourceTree = "<group>";
+		};
+		86DFC81A1BA6B086004C6A0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86DFC81B1BA6B086004C6A0C /* Info.plist */,
+				86DFC81C1BA6B086004C6A0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86DFC8361BA6B086004C6A0C /* PenzaMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				86DFC8391BA6B086004C6A0C /* PenzaMapTests.m */,
+				86DFC8371BA6B086004C6A0C /* Supporting Files */,
+			);
+			path = PenzaMapTests;
+			sourceTree = "<group>";
+		};
+		86DFC8371BA6B086004C6A0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86DFC8381BA6B086004C6A0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88FAA1B1CEC688FFF17346BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C890F991041BC63DE2EC9722 /* Pods-PenzaMap.debug.xcconfig */,
+				1EE45DBFC08436270BA6F740 /* Pods-PenzaMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC57049AAB700B2933539D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A9EDA27E6C0968BDE8F705 /* libPods-PenzaMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86DFC8161BA6B086004C6A0C /* PenzaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DFC83D1BA6B086004C6A0C /* Build configuration list for PBXNativeTarget "PenzaMap" */;
+			buildPhases = (
+				0103CEBB61DB58DF7343F7F8 /* Check Pods Manifest.lock */,
+				86DFC8131BA6B086004C6A0C /* Sources */,
+				86DFC8141BA6B086004C6A0C /* Frameworks */,
+				86DFC8151BA6B086004C6A0C /* Resources */,
+				BA9778B871ED588EA1F2310C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenzaMap;
+			productName = PenzaMap;
+			productReference = 86DFC8171BA6B086004C6A0C /* PenzaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86DFC8321BA6B086004C6A0C /* PenzaMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DFC8401BA6B086004C6A0C /* Build configuration list for PBXNativeTarget "PenzaMapTests" */;
+			buildPhases = (
+				86DFC82F1BA6B086004C6A0C /* Sources */,
+				86DFC8301BA6B086004C6A0C /* Frameworks */,
+				86DFC8311BA6B086004C6A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86DFC8351BA6B086004C6A0C /* PBXTargetDependency */,
+			);
+			name = PenzaMapTests;
+			productName = PenzaMapTests;
+			productReference = 86DFC8331BA6B086004C6A0C /* PenzaMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86DFC80F1BA6B086004C6A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Vladislav;
+				TargetAttributes = {
+					86DFC8161BA6B086004C6A0C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					86DFC8321BA6B086004C6A0C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 86DFC8161BA6B086004C6A0C;
+					};
+				};
+			};
+			buildConfigurationList = 86DFC8121BA6B086004C6A0C /* Build configuration list for PBXProject "PenzaMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86DFC80E1BA6B086004C6A0C;
+			productRefGroup = 86DFC8181BA6B086004C6A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86DFC8161BA6B086004C6A0C /* PenzaMap */,
+				86DFC8321BA6B086004C6A0C /* PenzaMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86DFC8151BA6B086004C6A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DFC8291BA6B086004C6A0C /* Main.storyboard in Resources */,
+				86DFC82E1BA6B086004C6A0C /* LaunchScreen.xib in Resources */,
+				86DFC82B1BA6B086004C6A0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DFC8311BA6B086004C6A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0103CEBB61DB58DF7343F7F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9778B871ED588EA1F2310C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PenzaMap/Pods-PenzaMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86DFC8131BA6B086004C6A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DFC8201BA6B086004C6A0C /* AppDelegate.m in Sources */,
+				86DFC81D1BA6B086004C6A0C /* main.m in Sources */,
+				86DFC8261BA6B086004C6A0C /* PenzaMapVC.m in Sources */,
+				86DFC8231BA6B086004C6A0C /* PenzaMap.xcdatamodeld in Sources */,
+				86DFC8451BA6B95E004C6A0C /* LeftMenuVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DFC82F1BA6B086004C6A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DFC83A1BA6B086004C6A0C /* PenzaMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86DFC8351BA6B086004C6A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DFC8161BA6B086004C6A0C /* PenzaMap */;
+			targetProxy = 86DFC8341BA6B086004C6A0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86DFC8271BA6B086004C6A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86DFC8281BA6B086004C6A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86DFC82C1BA6B086004C6A0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86DFC82D1BA6B086004C6A0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86DFC83B1BA6B086004C6A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86DFC83C1BA6B086004C6A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86DFC83E1BA6B086004C6A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C890F991041BC63DE2EC9722 /* Pods-PenzaMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PenzaMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86DFC83F1BA6B086004C6A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE45DBFC08436270BA6F740 /* Pods-PenzaMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PenzaMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86DFC8411BA6B086004C6A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PenzaMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenzaMap.app/PenzaMap";
+			};
+			name = Debug;
+		};
+		86DFC8421BA6B086004C6A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PenzaMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenzaMap.app/PenzaMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86DFC8121BA6B086004C6A0C /* Build configuration list for PBXProject "PenzaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DFC83B1BA6B086004C6A0C /* Debug */,
+				86DFC83C1BA6B086004C6A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DFC83D1BA6B086004C6A0C /* Build configuration list for PBXNativeTarget "PenzaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DFC83E1BA6B086004C6A0C /* Debug */,
+				86DFC83F1BA6B086004C6A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DFC8401BA6B086004C6A0C /* Build configuration list for PBXNativeTarget "PenzaMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DFC8411BA6B086004C6A0C /* Debug */,
+				86DFC8421BA6B086004C6A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86DFC8211BA6B086004C6A0C /* PenzaMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86DFC8221BA6B086004C6A0C /* PenzaMap.xcdatamodel */,
+			);
+			currentVersion = 86DFC8221BA6B086004C6A0C /* PenzaMap.xcdatamodel */;
+			path = PenzaMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86DFC80F1BA6B086004C6A0C /* Project object */;
+}
